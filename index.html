@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name – Resume</title>
+  <!-- Google Fonts: Poppins for headings, Lora for body text -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <!-- Links the separate CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation bar (styled with flexbox in style.css) -->
+  <nav class="navbar">
+    <a href="#top" class="logo">Your Name</a>
+    <ul class="nav-links">
+      <li><a href="#summary">Summary</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- Header: id="top" is styled with an ID selector -->
+    <header id="top">
+      <h1>Your<span>Name</span></h1>
+      <p class="tagline">Finance and business student | CFA Level 1 candidate</p>
+      <div class="contact">
+        <a href="mailto:you@email.com">you@email.com</a>
+        <span>+91 00000 00000</span>
+        <a href="https://linkedin.com/in/you">linkedin.com/in/you</a>
+        <span>Your City</span>
+      </div>
+    </header>
+
+    <section id="summary">
+      <h2>Professional summary</h2>
+      <p class="summary">I'm a finance student doing a dual degree at ITM University and IIM, and I'm preparing for CFA Level 1. I like building financial models in Excel, where one changed assumption shows up across the whole answer. I'm looking for a first role in finance where I can keep learning and use these skills on real work.</p>
+    </section>
+
+    <section id="experience">
+      <h2>Work experience</h2>
+      <!-- Each project is a "card" -->
+      <div class="cards">
+        <article class="card">
+          <p class="when">20XX</p>
+          <h3>DCF valuation model</h3>
+          <p class="label">Academic project</p>
+          <ul>
+            <li>Valued [company name] with a DCF model in Excel, from forecasting cash flows to working out the value per share.</li>
+            <li>Arrived at a value of [result]. [One thing you learned or noticed.]</li>
+          </ul>
+        </article>
+        <article class="card">
+          <p class="when">20XX</p>
+          <h3>Three-statement financial model</h3>
+          <p class="label">Academic project</p>
+          <ul>
+            <li>Connected the income statement, balance sheet and cash flow statement for [company name] in one Excel model.</li>
+            <li>Forecast [number] years ahead, so changing one assumption updates all three statements.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="tags">
+        <li>Financial modelling</li>
+        <li>Excel</li>
+        <li>DCF valuation</li>
+        <li>Three-statement modelling</li>
+        <li>Problem solving</li>
+        <li>Analytical thinking</li>
+        <li>Financial statement analysis</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <!-- The route: a vertical line with a dot for each stop -->
+      <ol class="route">
+        <li>
+          <p class="when">In progress</p>
+          <h3>CFA Level 1 <small>CFA Institute</small></h3>
+        </li>
+        <li>
+          <p class="when">2026 – 2029</p>
+          <h3>Dual degree: BBA (DBE) <small>IIM</small></h3>
+        </li>
+        <li>
+          <p class="when">2025 – 2028</p>
+          <h3>Dual degree <small>ITM University</small></h3>
+        </li>
+        <li>
+          <p class="when">Class XII</p>
+          <h3>85% <small>Delhi Public School</small></h3>
+        </li>
+        <li>
+          <p class="when">Class X</p>
+          <h3>72% <small>Delhi Public School</small></h3>
+        </li>
+      </ol>
+    </section>
+
+  </main>
+</body>
+</html>
